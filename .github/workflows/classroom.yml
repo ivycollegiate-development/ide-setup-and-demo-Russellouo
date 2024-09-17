@@ -22,7 +22,7 @@ jobs:
         setup-command: 
       import os
 
-          # Define the expected file path for 'Sprint_Project_1.0'
+          # Define the expected file path for 'Sprint_Project_1.3'
           def test_sprint_project_exists():
               expected_file_path = os.path.join(os.getcwd(), 'Sprint_Project_1.2')
               
