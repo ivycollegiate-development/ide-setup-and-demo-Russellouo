@@ -24,7 +24,7 @@ jobs:
 
           # Define the expected file path for 'Sprint_Project_1.3'
           def test_sprint_project_exists():
-              expected_file_path = os.path.join(os.getcwd(), 'Sprint_Project_1.2')
+              expected_file_path = os.path.join(os.getcwd(), 'Sprint_Project_1.3')
               
               # Assert that the file exists
               assert os.path.isfile(expected_file_path), f"File '{expected_file_path}' not found."
